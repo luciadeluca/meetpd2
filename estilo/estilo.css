@@ -1,0 +1,165 @@
+*{padding: 0; 
+ margin: 0}
+
+body{
+    background-image: url(../img/meet7.jpg);
+    background-size: 100%;
+
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 50%;
+    
+}
+
+.logo{
+    height:70px;
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+}
+
+.titulo{
+    font-size: 130px;
+    color: #D61A2D;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.parrafo{
+    font-size: 20px;
+    color: #ece6e7;
+    font-family:  'Archivo', sans-serif;
+    margin-right: 10px;
+
+}
+
+.participa{
+    font-size: 30px;
+    color: #D61A2D;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clear{
+    clear: right;
+}
+
+
+
+.formEntero{
+    padding: 20px;
+    padding-left: 150px;
+    margin-top: 5px;
+    align-content: center;
+    margin-right: 20px;
+    color: #ece6e7;
+    margin-left: 380px;
+}
+
+
+.textForm{
+    color: #ece6e7;
+    font-family:  'Archivo', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.espacio{
+    background-color: #0d0f1a;
+    border-radius: 4px;
+    border: 2px solid #ece6e7;
+    width: 200px;
+    height: 25px;
+}
+
+
+.select{
+    background-color: #0d0f1a;
+    color: #ece6e7;
+    padding: 2px;
+    font-family:  'Archivo', sans-serif;
+    border: 2px solid #ece6e7;
+    border-radius: 4px;
+    width: 200px;
+    height: 25px;
+}
+
+#textComp{
+    color: #ece6e7;
+    font-family:  'Archivo', sans-serif;
+}
+
+.boton{
+    padding: 10px;
+    background: #0d0f1a;
+    color: #ece6e7;
+    border: none;
+    border-radius: 4px;
+    font-family:  'Archivo', sans-serif;
+}
+
+
+.contenedorFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+.hijo1{
+    margin-left: 150px;
+    background-image: url(../img/gifk4.gif);
+    padding: 80px;
+    border-radius: 50%;
+    color: #D61A2D;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+        
+}
+
+.hijo2{
+    margin-right: 150px;
+    background-image: url(../img/gifk4.gif);
+    padding: 80px;
+    border-radius: 50%;
+    color: #D61A2D;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.entrada{
+    background-color: #ece6e7;
+    padding: 15px;
+    opacity: 80%;
+    border-radius: 50%;
+}
+
+footer{
+    margin-top: 600px;
+    background-color: #000000;
+    opacity: 50%;
+    color: #ece6e7;
+    font-family:  'Archivo', sans-serif;
+    height: 50px;
+}
+
+.foot{
+    display: inline-flex;
+    column-gap: 400px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
